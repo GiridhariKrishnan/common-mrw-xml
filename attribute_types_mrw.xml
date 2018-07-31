@@ -5834,4 +5834,45 @@
 		</simpleType>
 		<readable/>
 	</attribute>
+		<!--BEGIN: MSL design -->
+	<attribute>
+		<id>msl-mfg-allow</id>
+        <persistency>non-volatile</persistency>
+        <readable />
+		<simpleType>
+			<string>
+				<default>CUMULUS~1.2;CUMULUS~1.3;</default>
+			</string>
+		</simpleType>
+	</attribute>
+	<attribute>
+		<id>msl-field-supported</id>
+        <persistency>non-volatile</persistency>
+        <readable />
+		<simpleType>
+			<string>
+				<default>CUMULUS~1.2;CUMULUS~1.3;</default>
+			</string>
+		</simpleType>
+	</attribute>
+	<attribute>
+		<id>msl-lab-only-support</id>
+        <persistency>non-volatile</persistency>
+        <readable />
+		<simpleType>
+			<string>
+				<default>CUMULUS~1.2;CUMULUS~1.3;</default>
+			</string>
+		</simpleType>
+	</attribute>
+	<attribute>
+		<id>allowed-mixes</id>
+        <persistency>non-volatile</persistency>
+        <readable />
+		<simpleType>
+			<string>
+				<default>CUMULUS~1.2,CUMULUS~1.3;CUMULUS~1.2,CUMULUS~1.4</default>
+			</string>
+		</simpleType>
+	</attribute>
 </attributes>
